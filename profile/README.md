@@ -1,27 +1,45 @@
+<div align="center">
+
 # NamLauncher
 
-NamLauncher builds tools for playing and managing Minecraft Java Edition with separate, easy-to-maintain instances. The launcher brings together game versions, supported mod loaders, content, Java runtimes, logs, and updates.
+**ลันเชอร์ Minecraft Java Edition ที่แยกทุกโลกของคุณไว้เป็นอินสแตนซ์ของตัวเอง**
+A Minecraft Java Edition launcher that keeps every world in its own instance.
 
-Current stable launcher line: **1.3.1**
+[ดาวน์โหลด / Download](https://namlauncher.nattapat2871.me) ·
+[Microsoft Store](https://apps.microsoft.com/detail/9NWF3PDZG590) ·
+[วิธีติดตั้ง / Install guide](https://namlauncher.nattapat2871.me/how-to-install) ·
+[ประวัติการอัปเดต / Changelog](https://namlauncher.nattapat2871.me/changelog) ·
+[Discord](https://discord.gg/EtU4ZtR57C)
 
-- [Official website and downloads](https://namlauncher.nattapat2871.me)
-- [Installation guide](https://namlauncher.nattapat2871.me/how-to-install)
-- [Release history](https://namlauncher.nattapat2871.me/changelog)
+</div>
 
-## Repository map
+## ทำอะไรได้บ้าง
 
-- **NamLauncher/NamLauncher** — proprietary Electron launcher, release integration, and verified embedded snapshots.
-- **NamLauncher/website** — canonical private website/API/Admin/Discord platform source.
-- **NamLauncher/platform** — private compatibility mirror of the website platform; product changes originate in `NamLauncher/website`.
-- **NamLauncher/minecraft-companions** — GPL-3.0-only Minecraft Companion source and bundle tooling.
-- **NamLauncher/operations** — deployment configuration and operational runbooks.
-- **NamLauncher/.github** — organization profile and shared GitHub configuration.
-- **NamLauncher/launcher-migration-archive** — archived migration history; not an active source of truth.
-- **NamLauncher/winget-pkgs** — WinGet packaging/upstream work, separate from the application source.
-- **NamLauncher/demo-repository** — demonstration repository; not part of the production release chain.
+- **อินสแตนซ์แยกกัน** แต่ละอินสแตนซ์มีมอด การตั้งค่า โลก log และเวลาเล่นเป็นของตัวเอง เลือกได้ทั้ง Vanilla, Fabric, Forge, NeoForge และ Quilt
+- **หาเนื้อหาได้ในที่เดียว** ติดตั้งมอด มอดแพ็ก รีซอร์สแพ็ก และเชดเดอร์จาก Modrinth, CurseForge, FTB และ ATLauncher
+- **Java จัดการให้** ลันเชอร์เลือกและติดตั้ง Java ที่เหมาะกับเวอร์ชันเกม ปรับ RAM ได้รายอินสแตนซ์
+- **บัญชีและสกิน** เข้าสู่ระบบด้วย Microsoft หรือเล่นแบบออฟไลน์ เปลี่ยนสกินและเลือกจากคลังสกินยอดนิยม
+- **แต่งได้ตามใจ** ตั้งภาพหรือวิดีโอพื้นหลังให้แต่ละอินสแตนซ์ รองรับภาษาไทยและอังกฤษ
+- **แก้ปัญหาง่าย** ดู log ของเกมได้ทันที และเมื่อเกมเด้ง ลันเชอร์ช่วยบอกสาเหตุที่น่าจะเป็น
 
-The NamLauncher Game Companion adds launcher branding and in-game presentation for supported Minecraft and loader combinations. The launcher downloads and verifies the matching artifact from the official website. Legacy-supported versions keep their frozen companion source, while maintained combinations use the current 1.3.1 companion line.
+## What you get
 
-Production secrets, `.env` files, databases, runtime logs, downloaded release binaries, OAuth sessions, and machine-local workspaces are intentionally not stored in these source repositories.
+- **Separate instances** with their own mods, settings, worlds, logs and playtime, on Vanilla, Fabric, Forge, NeoForge or Quilt.
+- **One place for content**: mods, modpacks, resource packs and shaders from Modrinth, CurseForge, FTB and ATLauncher.
+- **Java handled for you**, with per-instance memory settings.
+- **Microsoft or offline accounts**, skin changes and a popular-skin library.
+- **Your look**: per-instance background images or video, in Thai or English.
+- **Easier troubleshooting**: a built-in log viewer and crash hints.
 
-Created by [nattapat2871](https://nattapat2871.me). NamLauncher is independent and is not affiliated with Mojang or Microsoft.
+ใช้ได้บน Windows (รวมถึง Microsoft Store), Linux และ macOS
+Available for Windows (including the Microsoft Store), Linux and macOS.
+
+## ช่วยเหลือและข้อเสนอแนะ
+
+แจ้งบั๊ก ขอความช่วยเหลือ หรือเสนอไอเดียได้ที่ [Discord](https://discord.gg/EtU4ZtR57C)
+For bug reports, help and ideas, join the [Discord](https://discord.gg/EtU4ZtR57C).
+
+---
+
+สร้างโดย [nattapat2871](https://nattapat2871.me) · NamLauncher เป็นโปรเจกต์อิสระ ไม่ได้มีส่วนเกี่ยวข้องกับ Mojang หรือ Microsoft
+Created by [nattapat2871](https://nattapat2871.me). NamLauncher is independent and not affiliated with Mojang or Microsoft.
